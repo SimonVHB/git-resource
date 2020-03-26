@@ -51,6 +51,7 @@ Tracks the commits in a [git](http://git-scm.com/) repository.
   that have a tag matching the expression that have been made against
   the `branch`. Patterns are [glob(7)](http://man7.org/linux/man-pages/man7/glob.7.html)
   compatible (as in, bash compatible).
+* `tag_filter_with_egrep`: *Optional.* Use egrep to filter tags instead of glob (see `tag_filter`). Defaults to false.
 
 * `submodule_credentials`: *Optional.* List of credentials for HTTP(s) auth when pulling/pushing private git submodules which are not stored in the same git server as the container repository.
     Example:
